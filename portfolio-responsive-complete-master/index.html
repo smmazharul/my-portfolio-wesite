@@ -211,15 +211,15 @@
             </section>
 
             <!--===== CONTACT =====-->
-            <section class="contact section" id="contact">
+            <section class="contact section" id="contact" >
                 <h2 class="section-title">Contact</h2>
 
                 <div class="contact__container bd-grid">
-                    <form action="https://formsubmit.co/smmazharulislam20@gmail.com" class="contact__form">
-                        <input type="text" placeholder="Name" class="contact__input">
-                        <input type="mail" placeholder="Email" class="contact__input">
-                        <textarea name="" id="" cols="0" rows="10" class="contact__input"></textarea>
-                        <input type="button" value="Enviar" class="contact__button button">
+                    <form action="https://formsubmit.co/smmazharulislam20@gmail.com" class="contact__form" method="POST">
+                        <input type="text" placeholder="Name" class="contact__input"  name="name" required>
+                        <input type="email" placeholder="Email" class="contact__input"  name="email" required>
+                        <textarea name="message" id="" cols="0" rows="10" class="contact__input" ></textarea>
+                        <input type="button" value="Submit" class="contact__button button">
                     </form>
                 </div>
             </section>
